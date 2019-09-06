@@ -3,6 +3,7 @@
 * 
 * @version 2.0
 * @author Vaska 
+* customized by trev (go to indexhibit for backup version)
 *
 * There are also some obscure rules in base.css
 */
@@ -13,7 +14,9 @@ body {
 	background: #fff;
 	color: #000;
 	line-height: 1.4em;
-	/* font-weight: 300; */
+    /* custom bg stuff */
+    background-repeat: no-repeat;
+    background-size: calc(100vw - 215px) 100vh;
 }
 
 /* link scheme */
@@ -30,8 +33,8 @@ code { font-family: monospace; }
 blockquote { padding-left: 9px; }
 
 /* headings */
-h1 { font-size: 16px; margin-bottom: 1em; font-weight: bold; }
-h2 { font-size: 16px; margin-bottom: 1em; font-weight: bold; }
+h1 { font-size: 16px; margin-bottom: 1em; }
+h2 { font-size: 16px; margin-bottom: 1em; }
 h3 { font-size: 16px; margin-bottom: 1em; }
 h4 { font-size: 16px; margin-bottom: 1em; }
 
@@ -99,7 +102,7 @@ li.active a:visited, li a.active, li span.active, #index ul.section li.active a:
 #index h1 a { font-weight: normal; text-decoration: none; color: #000; }
 
 /* this is where you adjust your paddings for #index and #exhibit together */
-.container { padding: 27px 9px 25px 27px; }
+.container { padding: 54px 54px 50px; }
 
 /* this is where you pad them separately */
 #index .container {  }

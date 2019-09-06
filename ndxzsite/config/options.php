@@ -2,7 +2,7 @@
 
 // mod_rewrite is being used?
 // in case the server does not have mod_rewrite
-define('MODREWRITE', false);
+define('MODREWRITE', true);
 
 // image quality
 $default['img_quality'] = 100;
@@ -10,7 +10,7 @@ $default['systhumb'] = 150;
 
 // images max size kilobytes
 // be careful with shared hosting
-$default['maxsize'] = 500;
+$default['maxsize'] = 650;
 
 // things you don't want stats to track
 $default['ignore_ip'] = array();
@@ -29,10 +29,10 @@ $default['parsing'] = false;
 	
 // cache time
 $default['caching'] = false;
-$default['cache_time'] = 15; // minutes
+$default['cache_time'] = 25; // minutes
 
 // first year
-$default['first_year'] = 2004;
+$default['first_year'] = 2018;
 	
 // define the default encoding
 $default['encoding'] = 'UTF-8';
